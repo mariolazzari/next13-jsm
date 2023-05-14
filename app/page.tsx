@@ -1,6 +1,6 @@
 import Feed from "@/components/Feed";
 
-export default function Home() {
+function Home() {
   return (
     <section className="flex-col w-full flex-center">
       <h1 className="text-center head_text">
@@ -16,3 +16,5 @@ export default function Home() {
     </section>
   );
 }
+
+export default Home;
